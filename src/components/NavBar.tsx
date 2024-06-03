@@ -1,12 +1,12 @@
 import Image from "next/image"
 
 export default function NavBar() {
-    const logo = require('../../public/assets/icons/lies-of-p-logo-3 1.svg')
+    const logo = require('../../public/assets/icons/logojogo.png')
     return (
         <div className="flex flex-row w-screen bg-[#00000099] justify-between items-center fixed z-10" >
 
             <div className="">
-                <Image className="ml-16" src={logo} alt="logo" />
+                <Image className="ml-16" src={logo} width={140} height={30} alt="logo" />
             </div>
 
             <div>
